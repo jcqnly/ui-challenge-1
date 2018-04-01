@@ -1,58 +1,72 @@
 body {
-  width: 905px;
-  margin: auto
+  width: 480px;
+  margin: auto;
+  padding-top: 60px;
+  font-family: 'Noto Sans', sans-serif;
+  color:#585858
 }
 
-#a{
+p {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+div {
+  background-color: #E3E2E2;
+  border: 1px solid #585858;
+}
+
+#a {
   height: 75px;
   width: 480px;
-  border: 2px solid #585858;
 }
 
-#b{
+#b {
   height: 150px;
   width: 480px;
-  border: 2px solid #585858;
 }
 
-#c{
+#c {
   height: 125px;
   width: 480px;
-  border: 2px solid #585858;
 }
 
-#d{
+#d {
   height: 125px;
   width: 480px;
-  border: 2px solid #585858;
 }
 
-#e{
+#ef {
+  float: left;
+  width: 100%;
+}
+
+#e {
   height: 250px;
   width: 240px;
-  border: 2px solid #585858;
+  float: left;
 }
 
-#f{
+#f {
   height: 250px;
   width: 240px;
-  border: 2px solid #585858;
+  float: right;
+  margin-right: 2px
 }
 
-#g{
+#g {
   height: 250px;
   width: 240px;
-  border: 2px solid #585858;
+  float: left;
 }
 
-#h{
+#h {
   height: 250px;
   width: 240px;
-  border: 2px solid #585858;
+  float: right;
 }
 
-#i{
+#i {
   height: 80px;
   width: 480px;
-  border: 2px solid #585858;
 }
