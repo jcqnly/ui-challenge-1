@@ -1,0 +1,72 @@
+body {
+  width: 480px;
+  margin: auto;
+  padding-top: 60px;
+  font-family: 'Noto Sans', sans-serif;
+  color:#585858
+}
+
+p {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+div {
+  background-color: #E3E2E2;
+  border: 1px solid #585858;
+}
+
+#a {
+  height: 75px;
+  width: 480px;
+}
+
+#b {
+  height: 150px;
+  width: 480px;
+}
+
+#c {
+  height: 125px;
+  width: 480px;
+}
+
+#d {
+  height: 125px;
+  width: 480px;
+}
+
+#ef {
+  float: left;
+  width: 100%;
+}
+
+#e {
+  height: 250px;
+  width: 240px;
+  float: left;
+}
+
+#f {
+  height: 250px;
+  width: 240px;
+  float: right;
+  margin-right: 2px
+}
+
+#g {
+  height: 250px;
+  width: 240px;
+  float: left;
+}
+
+#h {
+  height: 250px;
+  width: 240px;
+  float: right;
+}
+
+#i {
+  height: 80px;
+  width: 480px;
+}
