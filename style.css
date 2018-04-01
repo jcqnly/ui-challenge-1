@@ -1,7 +1,7 @@
 body {
   width: 480px;
   margin: auto;
-  padding-top: 60px;
+  padding: 60px 0 60px 0;
   font-family: 'Noto Sans', sans-serif;
   color:#585858
 }
@@ -13,57 +13,66 @@ p {
 
 div {
   background-color: #E3E2E2;
-  border: 1px solid #585858;
 }
 
 #a {
   height: 75px;
   width: 480px;
+  background-color: rgb(247, 134, 134);
 }
 
 #b {
   height: 150px;
   width: 480px;
+  background-color: rgb(244, 184, 144);
 }
 
 #c {
   height: 125px;
   width: 480px;
+  background-color: rgb(252, 236, 146);
 }
 
 #d {
   height: 125px;
   width: 480px;
+  background-color: rgb(203, 248, 152);
 }
 
-#ef {
-  float: left;
-  width: 100%;
+#efgh {
+  width: 480px;
+  overflow: auto;
+  content: "";
+  clear: both;
+  display: table
 }
 
 #e {
   height: 250px;
   width: 240px;
   float: left;
+  background-color: rgb(180, 243, 252);
 }
 
 #f {
   height: 250px;
   width: 240px;
-  float: right;
-  margin-right: 2px
+  float: left;
+  background-color: rgb(197, 193, 250);
 }
 
 #g {
   height: 250px;
   width: 240px;
   float: left;
+  background-color: rgb(184, 159, 159);
 }
 
 #h {
   height: 250px;
   width: 240px;
-  float: right;
+  float: left;
+  background-color: rgb(252, 175, 211);
 }
 
 #i {
