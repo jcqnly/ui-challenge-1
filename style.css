@@ -42,9 +42,6 @@ div {
 #efgh {
   width: 480px;
   overflow: auto;
-  content: "";
-  clear: both;
-  display: table
 }
 
 #e {
@@ -99,14 +96,8 @@ div {
   }
 
   #bcdefgh {
-    float: left;
-  }
-
-  #bcd {
-    width: 960px;
-    height: 600px;
+    width: 100%;
     overflow: auto;
-    content: "";
     display: table;
   }
 
@@ -119,6 +110,7 @@ div {
   #efgh {
     height: 250px;
     width: 760px;
+    float: left;
   }
 
   #e, #f, #g, #h {
