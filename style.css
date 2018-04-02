@@ -3,16 +3,12 @@ body {
   margin: auto;
   padding: 60px 0 60px 0;
   font-family: 'Noto Sans', sans-serif;
-  color:#585858
+  color:#333
 }
 
 p {
   padding-top: 15px;
   padding-left: 20px;
-}
-
-div {
-  background-color: #E3E2E2;
 }
 
 #a {
@@ -27,48 +23,42 @@ div {
   background-color: rgb(244, 184, 144);
 }
 
-#c {
+#c, #d {
   height: 125px;
   width: 480px;
+}
+
+#c {
   background-color: rgb(252, 236, 146);
 }
 
 #d {
-  height: 125px;
-  width: 480px;
   background-color: rgb(203, 248, 152);
 }
 
 #efgh {
-  width: 480px;
   overflow: auto;
 }
 
-#e {
+#e, #f, #g, #h {
   height: 250px;
   width: 240px;
   float: left;
+}
+
+#e {
   background-color: rgb(180, 243, 252);
 }
 
 #f {
-  height: 250px;
-  width: 240px;
-  float: left;
   background-color: rgb(197, 193, 250);
 }
 
 #g {
-  height: 250px;
-  width: 240px;
-  float: left;
   background-color: rgb(184, 159, 159);
 }
 
 #h {
-  height: 250px;
-  width: 240px;
-  float: left;
   background-color: rgb(171, 180, 151);
 }
 
@@ -81,7 +71,6 @@ div {
 @media only screen and (min-width: 800px) {
   body {
     width: 960px;
-    margin: auto;
   }
 
   #a {
@@ -96,9 +85,7 @@ div {
   }
 
   #bcdefgh {
-    width: 100%;
     overflow: auto;
-    display: table;
   }
 
   #c, #d {
@@ -110,7 +97,6 @@ div {
   #efgh {
     height: 250px;
     width: 760px;
-    float: left;
   }
 
   #e, #f, #g, #h {
